@@ -1,10 +1,15 @@
 Machine Learning for Financial Analysis
 
 ## Problem 
-Financial analysis in the banks and other loan underwriters can be greatly transformed through machine learning. Loan products such as credit cards are plagued by both credit (default) losses. Credit losses can be attributed to companies incorrectly providing higher credit lines to customers or pricing the products very low. 
+
+Financial analysis in the banks and other loan underwriters can be greatly transformed through machine learning. Loan products such as credit cards are plagued by credit (default) losses. Credit losses are a result of incorrectly assessing the default risk of a customer. An incorrect assessment of default risk results in companies incorrectly providing higher credit lines to customers or pricing the products very low.
 
 ## Solution
-Predictive models built on customer data such as age, education, current debt etc will enable improved calculation of consumer risk. Machine learning can further leverage historical data to improve the precision of the models and the rules, such that when a new customer applies the model will help suggest products and the pricing. 
+
+Predictive models built on customer data such as age, education, income, current debt, delinquency history will enable improved calculation of consumer risk. Consumer risk can be modeled as the probability of a consumer charging off (defaulting) in the next two years. Machine learning can further leverage historical data of existing charged-off customers to improve the precision of the models and the rules, such that when a new customer applies for a financial product, the model will help suggest a suitable product and the pricing.
+
+There are two primary sources of data. The personal details such as age, income, education will be obtained from the application form. Variables such as delinquency history and current debt will be sourced from credit reports. The company would have to partner with credit agencies such as Equifax or Transunion to obtain an applicant’s credit history. The sensitivity of the customer data collected is a key concern for financial companies. Appropriate data protection protocol is essential in financial companies in order to protect the consumer’s interests.
 
 ## Consequences
-The implementation of machine learning models in the financial industry can help companies improve their profitability by reducing their credit and fraud losses. The models will enable better product pricing for a given customer. These models can be further leveraged by marketing teams to appropriately position the plethora of products offered by the company.
+
+The implementation of machine learning models in the financial industry can help companies improve their profitability by reducing their credit losses. The models would also enable better product pricing for a given customer. These models can be further leveraged by marketing teams to appropriately position and market the plethora of products offered by the company.
