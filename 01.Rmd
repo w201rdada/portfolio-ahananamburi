@@ -1,5 +1,5 @@
 
-## Can improved risk prediction for loan underwriting help both the companies and the customers? 
+## Can improved risk prediction for loan underwriting help both the companies and the customers? {-}
 
 Keywords {Dynamic Pricing, Loan underwriting, Risk prediction}
 
@@ -7,7 +7,7 @@ Banks and other financial lenders have traditionally relied on underwriters to a
 
 Credit losses are incurred when the default risk of a customer is assessed incorrectly. An under prediction of default risk results in companies providing higher credit lines or pricing the products low leading to unprofitable loans and significant negative cashflows. Conversely, if the default risk is over estimated, the product could be priced too high resulting in customers choosing better lending options. In addition, traditional underwriting assesses customer’s credit risk point-in-time when the customer applies for a loan product. This limits the bank’s ability to react to changes in customer’s risk over time, which is especially critical for open-ended loan products like lines of credit or credit cards.
 
-## Dynamic Underwriting for Lending
+## Dynamic Underwriting for Lending {-}
 
 Machine learning models can be built to predict the risk of a customer default. All available information on the customer can be used as inputs to the model. This includes customer’s personal information like income, education, occupation, length of employment history. Customer’s account history like past payment behavior, changes in the utilization of credit line and spending patterns could be used as valuable inputs.  In addition, banks can partner with credit bureaus like Transunion or Equifax to obtain credit bureau information to get data on customer’s length of credit history, delinquency history, current debt levels, and check for indicators of credit hunger. The sensitivity of the customer data collected is a key concern for financial companies. Appropriate data protection protocol is essential in financial companies in order to protect the consumer’s interests.
 
@@ -15,9 +15,9 @@ Consumer risk can be modeled as the probability of a consumer charging off (defa
 
 Product pricing can be dynamically updated based on the most current risk assessment. Customer’s credit line can also be dynamically adjusted. The dynamic assessment can also result in reduced pricing for customers or higher lines of credit. This can result in higher customer satisfaction, while keeping profitability in mind. Companies can help reduce default rates amongst its customers, this helping them build better credit.
 
-## Higher profitability, and better customer loyalty
+Dynamic assessment [@gupta_machine_2014] of credit limits can be undertaken easily, while pricing changes will need consent from the customers.  
 
-Machine learning can enable banks to continuously evaluate the credit risk of every customer using the most up-to-date information and change the terms of their products dynamically. This can result in increased profitability to price for risk dynamically. It can also be used to offer existing customers better product terms if their risk profile changes over time leading to improved customer loyalty. In summary, machine-learning based underwriting can be a big competitive advantage for banks.
+## Higher profitability, and better customer loyalty {-}
 
-[@GuptaMachineLearningFramework2014]
-[@CrosmanFordCreditputs2017]
+Machine learning can enable banks to continuously evaluate the credit risk of every customer using the most up-to-date information and change the terms of their products dynamically. This can result in increased profitability to price for risk dynamically. It can also be used to offer existing customers better product terms if their risk profile changes over time leading to improved customer loyalty. In summary, machine-learning based underwriting can be a big competitive advantage for banks and loan underwriters. [@crosman_ford_2017]
+
