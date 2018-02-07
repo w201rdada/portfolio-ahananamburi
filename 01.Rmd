@@ -1,7 +1,9 @@
 
-## Can improved risk prediction for loan underwriting help both the companies and the customers? 
+# Can improved risk prediction for loan underwriting help both the companies and the customers? 
 
-Keywords {Dynamic Pricing, Loan underwriting, Risk prediction}
+####Keywords {Dynamic Pricing, Loan underwriting, Risk prediction}
+
+## Risks in Loan Underwriting
 
 Banks and other financial lenders have traditionally relied on underwriters to assess credit risk of customers to make most lending decisions, including loan approval, pricing, and credit line assignment. 
 
