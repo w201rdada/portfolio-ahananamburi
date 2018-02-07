@@ -1,5 +1,5 @@
 
-## Can improved risk prediction for loan underwriting help both the companies and the customers? {-}
+## Can improved risk prediction for loan underwriting help both the companies and the customers? 
 
 Keywords {Dynamic Pricing, Loan underwriting, Risk prediction}
 
