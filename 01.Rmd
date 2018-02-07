@@ -18,3 +18,6 @@ Product pricing can be dynamically updated based on the most current risk assess
 ## Higher profitability, and better customer loyalty
 
 Machine learning can enable banks to continuously evaluate the credit risk of every customer using the most up-to-date information and change the terms of their products dynamically. This can result in increased profitability to price for risk dynamically. It can also be used to offer existing customers better product terms if their risk profile changes over time leading to improved customer loyalty. In summary, machine-learning based underwriting can be a big competitive advantage for banks.
+
+[@GuptaMachineLearningFramework2014]
+[@CrosmanFordCreditputs2017]
