@@ -14,7 +14,7 @@ bookdown::gitbook:
         <li><a href="https://github.com/oskibear" target="blank">GitHub</a></li>
         <li><a href="https://www.ischool.berkeley.edu/people/oski-bear" target="blank">UC Berkeley</a></li>
         <li><a href="https://www.linkedin.com/in/oskibear/" target="blank">LinkedIn</a></li>
-            
+           
     sharing:
       facebook: no
       twitter: no
@@ -23,5 +23,5 @@ bookdown::gitbook:
       instapper: no
       vk: no
       all: no
-    edit: https://github.com/w201rdada/portfolio-MYGITHUBUSER/edit/master/%s
+    edit: https://github.com/w201rdada/portfolio-ahananamburi/edit/master/%s
     download: null
