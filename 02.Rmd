@@ -6,22 +6,24 @@ Machine Learning, Renewable Energy, Fossil Fuels
 
 ## Maximizing utility of Renewable energy
 
-Machine Learning has become a tool for strategic planning and policy making in the renewable energy sector. It has widespread applications in this sector. The solutions currently in place range from demand and supply forecasting, determination of plant location and size to maximize energy production to smart grid management. Supply forecasting has been very critical to promoting other developments as wind and solar power can be erratic based on weather conditions. A supply shortage from renewable sources would imply reliance on conventional sources of energy.
+Machine Learning & AI have become tools for strategic planning and policy making in the renewable energy sector. It has widespread applications in this sector. The solutions currently in place range from demand and supply forecasting, grid management to determination of plant location and size to maximize energy production. Supply forecasting has been very critical to promoting other developments. This is mainly because weather conditions determine the nature of wind,  solar and geothermal power generation. A supply shortage from renewable sources would imply reliance on conventional sources of energy (fossil fuels). AI offers a unique solution to the problems due to its capacity to evolve and learn.
 
-An important application that can be developed would be to estimate required energy storage in order to limit reliance on conventional (fossil fuels) sources of energy. This solution would be useful given excess energy enervated is wasted, which can be stored and consumed in times of excess demand and lower energy generation.
+An important development over and above the current solutions, would be the estimation of required power storage in order to limit the dependency on conventional sources of energy. This solution would be useful given excess renewable energy generated is wasted as it cannot be stored.  The excess power if stored can be consumed in times of excess demand and lower power generation.
 
 
-## Solution to predict wastage of energy and propose investment in energy storage
+## Investing in energy storage by predicting energy wastage
 
-It is important to understand that this solution is built upon existing machine learning solutions that predict supply from different energy sources such as solar and wind power. 
+It is important to understand that this solution is built upon existing machine learning solutions that predict consumer demand and supply from different energy sources such as solar and wind. The supply prediction models are complex as renewable energy production is intermittent and production depends on weather conditions such as wind speeds and sunlight. These models incorporate weather patterns which can be computing intensive, thus depending on cloud computing.
 
-The model will use past weather and power generation data in order to predict wastage of energy (generated from renewable energy sources.) This in turn will be analyzed to assess the appropriate investment into energy storage solutions weighing it against the cost of generating the needed power from conventional sources of energy.
+This solution aims to bridge the gap between the supply and demand of energy. In times of excess supply the renewable energy generated is wasted. In times of low supply the demand is met by conventional sources of energy such as oil and natural gas. This model will be built on the existing models of supply and demand, to determine periods of energy wastage and excess demand.  These patterns can then be analyzed to assess the amount of energy storage needed to minimize reliance on conventional sources of power. This would determine appropriate investment into energy storage solutions weighing it against the cost of generating the needed power from conventional sources of energy.
+
+The key inputs into this model would be the given area, demand and supply during a given period of time, grid management system (implying management of excess energy), cost of energy storage and cost of generating power from conventional sources of energy. (Details of the model to be expanded further)
 
 
 ```{r experimental,echo=F,results='asis',eval=F}
 data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
 ```
 
-## An end.
+## Enabling an energy secure future
 
 The rapid pace of climate change and the depletion of fossil fuels makes it imperative for us to invest in increasing the efficiency and utility of the renewable energy sources. This will ensure an energy secure future by enabling a transition to a fully decarbonised energy production and consumption. Solving energy problems directly relates to improving living conditions particularly in developing countries.
