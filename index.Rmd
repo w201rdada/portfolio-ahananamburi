@@ -20,17 +20,14 @@ readLines ('https://www.zotero.org/api/users/4690718/items/top?limit=25&format=b
 # Welcome! {-}
 
 <!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/hello-world.png')
+```{r hello-world,echo=FALSE,fig.align='center',out.width='50%'}
+knitr::include_graphics('img/DS1.jpg')
 ```
 
 ### Machine Learning for Dynamic Underwriting - Abstract {-}
 
-Predictive models to assess customer credit risk for loan underwriting have been implemented in the financial industry. These models predict the risk at a point in time. Continuous assessment of credit risk can enable detection of change in customer behaviour. Banks can dynamically update product pricing or change the terms of a loan such as increase the credit line. This solution will have a two fold benefit of increased profitability for banks and increased customer satisfaction enabling them to build credit responsibly.
+Predictive models to assess customer credit risk for loan underwriting have been implemented in the financial industry. These models predict the risk only at a point in time. The proposed tool enables continuous assessment of credit risk. This will detect changes in customer behaviour by analyzing spending patternsor change in credit score.  Banks can dynamically update product pricing or change the terms of a loan such as increase the credit line. This solution will have a two fold benefit of increased profitability for banks and increased customer satisfaction enabling them to build credit responsibly.
 
-### Abstract of the second idea {-}
-
-To be updated
 
 ## About Ahana Namburi {-}
 
