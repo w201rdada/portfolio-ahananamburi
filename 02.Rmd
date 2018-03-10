@@ -1,29 +1,31 @@
-# My second cool idea {#slug-two}
+# Ener-Stor {#Renewable-Energy-Storage}
 
 #### Keywords {-}
 
-Machine Learning, Renewable Energy, Fossil Fuels
+Machine Learning, Renewable Energy, Fossil Fuels, Energy Storage, Clean Energy
 
 ## Maximizing utility of Renewable energy
 
-Machine Learning & AI have become tools for strategic planning and policy making in the renewable energy sector. It has widespread applications in this sector. The solutions currently in place range from demand and supply forecasting, grid management to determination of plant location and size to maximize energy production. Supply forecasting has been very critical to promoting other developments. This is mainly because weather conditions determine the nature of wind,  solar and geothermal power generation. A supply shortage from renewable sources would imply reliance on conventional sources of energy (fossil fuels). AI offers a unique solution to the problems due to its capacity to evolve and learn.
+Renewable energy generation worldwide has doubled in the last 10 years. Despite this growth, there is still a significant reliance on energy derived from conventional sources of energy. At the simplest level, this is driven by a mismatch between supply and demand. Homeowners can play a huge part in bridging this gap. While there is a growing population of consumers motivated to adopt green energy, a majority of them are standing on the sidelines due to financial considerations. Despite significant innovation in technology that has driven down the cost of home solar installations, the economics of investing in solar remain unpalatable for most consumers. Consumers are wary of long and, often, uncertain pay-back periods. 
 
-An important development over and above the current solutions, would be the estimation of required power storage in order to limit the dependency on conventional sources of energy. This solution would be useful given excess renewable energy generated is wasted as it cannot be stored.  The excess power if stored can be consumed in times of excess demand and lower power generation.
+Our solution, Ener-Stor, is a smart energy storage solution that will encourage more consumers to invest in solar energy for their homes. It combines advances in energy storage and machine learning to improve the return on investment on solar panels and significantly reduce a household’s reliance on fossil-fuel based energy. 
 
+## Investing in smart energy storage by predicting energy wastage
 
-## Investing in energy storage by predicting energy wastage
+Since the generation of solar energy is dependent on the amount of sunshine, there is significant volatility in energy production. At times, the supply is insufficient to meet the demand of the household (for example, at night or during overcast days) and at other times, there is more energy being generated than can be consumed. Power storage can help meet the power needs in time of short supply thus reducing (or even eliminating) the need to buy energy from the grid. When excess power is generated, it can be sold to the grid. This will result in the homeowner having a net positive income stream which can significantly improve the economics of the investment decision.
 
-It is important to understand that this solution is built upon existing machine learning solutions that predict consumer demand and supply from different energy sources such as solar and wind. The supply prediction models are complex as renewable energy production is intermittent and production depends on weather conditions such as wind speeds and sunlight. These models incorporate weather patterns which can be computing intensive, thus depending on cloud computing.
+Ener-Stor is an energy storage solution that can make real-time decisions on how to optimally use the energy being produced in the home. It decides when excess energy should be sold to the grid and when it should be stored for future use by predicting future supply and demand for the household. 
 
-This solution aims to bridge the gap between the supply and demand of energy. In times of excess supply the renewable energy generated is wasted. In times of low supply the demand is met by conventional sources of energy such as oil and natural gas. This model will be built on the existing models of supply and demand, to determine periods of energy wastage and excess demand.  These patterns can then be analyzed to assess the amount of energy storage needed to minimize reliance on conventional sources of power. This would determine appropriate investment into energy storage solutions weighing it against the cost of generating the needed power from conventional sources of energy.
+Ener-Stor uses two predictive machine learning models to makes it decisions: one model to predict the hourly solar energy production and another model to predict the hourly household power demand. These models are self-learning resulting in more accurate predictions over time as they gather more data over time. 
 
-The key inputs into this model would be the given area, demand and supply during a given period of time, grid management system (implying management of excess energy), cost of energy storage and cost of generating power from conventional sources of energy. (Details of the model to be expanded further)
+The supply prediction is complex as solar energy production is intermittent and production depends on weather conditions such as cloud cover, sun intensity, relative humidity, and heat build up. The supply prediction model is a neural network that uses historical weather data specific to the household’s location and global satellite imagery to predict the weather conditions. It combines the weather prediction with the characteristics of the solar system installation for the household (for example, the type of materials used, the square footage of the solar panels etc.) to generate hourly supply predictions for the next 72 hours. It uses cloud computing to store and process the vast amounts of data involved.
 
+The demand prediction model is an auto-regression model that uses historical data specific to the household’s power consumption. It uses factors like time of day, day of the week, time of the year, and also considers the trending of household power consumption over time. Smart meters/devices will be used to track energy consumption of a household. Ener-Stor will calculate the energy delta for each hour using the the predicted supply and demand for the next 72 hours. Ener-Stor will automatically route the energy being produced to the grid or to storage based on these calculations. 
 
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
+Energy storage hasn't been viable until recently due to high costs, but with new technologies and low costs it can be well leveraged to reduce our dependency on conventional sources of energy.
 
 ## Enabling an energy secure future
 
-The rapid pace of climate change and the depletion of fossil fuels makes it imperative for us to invest in increasing the efficiency and utility of the renewable energy sources. This will ensure an energy secure future by enabling a transition to a fully decarbonised energy production and consumption. Solving energy problems directly relates to improving living conditions particularly in developing countries.
+Ener-Stor will result in significant financial benefit for homeowners while their homes are 100% powered by clean energy. It will adapt to the changing energy requirements of the household as well as changing weather patterns. Ener-Stor is scalable to larger organizations invested in solar panels. 
+
+This solution is just another drop in the bucket in terms of the efforts being undertaken to reduce greenhouse gas emissions. The pace of climate change requires us to find innovative ways to rapidly reduce our planet’s dependence on non-renewable sources of energy. Ener-Stor can make a significant difference towards accomplishing this objective by providing a financial incentive for homeowners to invest in solar technology and become net positive contributors to the energy equation.
