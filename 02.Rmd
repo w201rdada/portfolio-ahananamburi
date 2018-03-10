@@ -22,7 +22,7 @@ The supply prediction is complex as solar energy production is intermittent and 
 
 The demand prediction model is an auto-regression model that uses historical data specific to the household’s power consumption. It uses factors like time of day, day of the week, time of the year, and also considers the trending of household power consumption over time. Smart meters/devices will be used to track energy consumption of a household. Ener-Stor will calculate the energy delta for each hour using the the predicted supply and demand for the next 72 hours. Ener-Stor will automatically route the energy being produced to the grid or to storage based on these calculations. 
 
-Energy storage hasn't been viable until recently due to high costs, but with new technologies and low costs it can be well leveraged to reduce our dependency on conventional sources of energy.
+Energy storage hasn't been viable until recently due to high costs, but with new technologies and low costs it can be well leveraged to reduce our dependency on conventional sources of energy.(@luo_overview_2015)
 
 ## Enabling an energy secure future
 
